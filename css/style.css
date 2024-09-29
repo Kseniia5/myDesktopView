@@ -174,6 +174,14 @@ clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80
         body {
             background-color: rgb(211, 211, 85);
         }
+
+        .star {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(66, 212, 212);
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+            }
+
         .container {
 
             width: 100%;
@@ -181,6 +189,14 @@ clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80
         .menu {
             width: 100%;
             grid-template-columns: 1fr 2fr;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background-color: rgb(166, 190, 27);
+            clip-path: circle(50% at 50% 50%);
+            justify-self: start;
         }
         
         .humburger-menu {
